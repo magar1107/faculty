@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Faculty Substitution Automation System">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Substitute Auto">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Substitute Auto</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDK for Web -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
+    import { getAuth } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-auth.js";
+    import { getDatabase } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDCUzB3T_2PrwiSU3SIVjQzQsmoYW4E8Q0",
+      authDomain: "faculty-188b6.firebaseapp.com",
+      databaseURL: "https://faculty-188b6-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "faculty-188b6",
+      storageBucket: "faculty-188b6.firebasestorage.app",
+      messagingSenderId: "811208997285",
+      appId: "1:811208997285:web:024b88378f4dcceb8a504c",
+      measurementId: "G-T2H8P142ZB"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    getAuth(app);
+    getDatabase(app);
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

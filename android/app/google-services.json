@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "811208997285",
+    "firebase_url": "https://faculty-188b6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "faculty-188b6",
+    "storage_bucket": "faculty-188b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811208997285:android:96f2519254b270da8a504c",
+        "android_client_info": {
+          "package_name": "com.faculty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiK_4PDlYpeMcMfgQXkZ8iuvhwR2rUoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
